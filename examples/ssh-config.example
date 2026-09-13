@@ -1,0 +1,8 @@
+# 地址、密钥路径与主机指纹均由使用者在本地配置。
+Host papago-s36
+    HostName 192.168.1.50
+    Port 2222
+    User root
+    IdentityFile ~/.ssh/papago_s36
+    IdentitiesOnly yes
+    StrictHostKeyChecking ask

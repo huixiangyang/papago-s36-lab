@@ -1,0 +1,12 @@
+/* 局域网设备只接受维护密钥，不编译密码验证与公网反向转发。 */
+#define DROPBEAR_SVR_PASSWORD_AUTH 0
+#define DROPBEAR_SVR_PAM_AUTH 0
+#define DROPBEAR_SVR_REMOTETCPFWD 0
+#define DROPBEAR_SVR_REMOTESTREAMFWD 0
+#define DROPBEAR_X11FWD 0
+#define DROPBEAR_SVR_AGENTFWD 0
+#define DROPBEAR_CLI_AGENTFWD 0
+#define DROPBEAR_SVR_LOCALSTREAMFWD 0
+#define DROPBEAR_SFTPSERVER 0
+#define DO_MOTD 0
+#define DEFAULT_ROOT_PATH "/dev/s36:/usr/sbin:/usr/bin:/sbin:/bin"

@@ -1,0 +1,29 @@
+{
+  "note": "上游文件不随仓库分发。下载后核对指纹，当前可用性未承诺。",
+  "dependencies": [
+    {
+      "name": "PAPAGO S36 4K OTA",
+      "url": "https://api.dvr-cloud.com/cardv/static/default/ota/HISI%20PAPAGO%20S36%204K/S36_4K.sw",
+      "sha256": "3da7a30e60375cd56f7f927495fa014db5b89bcdbf263469aafdf06280da290e",
+      "bytes": 13289255,
+      "version": "S36 4K V1.15_Build20200629"
+    },
+    {
+      "name": "BusyBox 1.31.0 ARMv7",
+      "source_url": "https://busybox.net/downloads/binaries/1.31.0-defconfig-multiarch-musl/busybox-armv7l",
+      "sha256": "cd04052b8b6885f75f50b2a280bfcbf849d8710c8e61d369c533acf307eda064",
+      "bytes": 1152216
+    },
+    {
+      "name": "Dropbear 2026.94",
+      "url": "https://dropbear.nl/mirror/releases/dropbear-2026.94.tar.bz2",
+      "sha256": "e098034a843699200c8c977a991fff73159735bf795d5f72ef672c41a6b1ae81"
+    },
+    {
+      "name": "Zig 0.14.1 macOS ARM64",
+      "url": "https://ziglang.org/download/0.14.1/zig-aarch64-macos-0.14.1.tar.xz",
+      "sha256": "39f3dc5e79c22088ce878edc821dedb4ca5a1cd9f5ef915e9b3cc3053e8faefa",
+      "bytes": 45903552
+    }
+  ]
+}
